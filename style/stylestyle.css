@@ -1,0 +1,33 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: var(--righteous-font);
+    color: white;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.header{
+    height: 95vh;
+    background-image: url("../image/hero.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.Wrapper{
+    min-height: 100vh;
+    min-width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(31, 34, 118, 0.8);   
+}
+
+.headerword{
+    display: block;
+}
