@@ -1,4 +1,3 @@
-
 .btn{
     &:link, &:visited{
         text-transform: uppercase;
@@ -34,8 +33,17 @@
             
         &::after{
             background-color: $color-ter;
-        }
+        } 
+    }
 
+    &--blue{
+        color: rgba($color-ter, 1);
+        background-color: $color-primary;
+        font-size: large;
+            
+        &::after{
+            background-color: $color-primary;
+        }
     }
     
     &::after {
