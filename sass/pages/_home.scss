@@ -24,11 +24,30 @@
 .section-tours{
     margin-top: -15rem;
     background-color: $color-light-gray-1;
-    padding: 27rem 0 15rem 0;
+    padding: 27rem 0 10rem 0;
     color: black;
 }
 
 .section-stories{
+    position: relative;
     padding: 5rem 0;
-    background-color: $color-light-gray-1;
+}
+
+.section-book {
+    padding: 15rem 0;
+    background-image: linear-gradient(to bottom right, $color-primary-light, $color-secondary-dark);
+    color: $color-black;
+}
+
+.book {
+    background-image: linear-gradient(110deg,rgba($color-ter, .9) 0%, rgba($color-ter, .9) 50%, transparent 50%),url(../image/nat-10.jpg);
+    background-size: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    height: 50rem;
+
+    &__form{
+        width: 50%;
+        padding: 6rem;
+    }
 }
